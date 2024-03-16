@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Struk"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang " />
+    <TextView
+        android:id="@+id/tvNamaPelangganStruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nama Penggalan"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipe Pelanggan"/>
+
+    <TextView
+        android:id="@+id/tvTipePelangganStruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tipe Pelanggan"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaksi"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Kode Barang           : "/>
+            <TextView
+                android:id="@+id/tvKodeBarangStruk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Kode Barang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Nama Barang         : "/>
+        <TextView
+            android:id="@+id/tvNamaBarangStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nama Barang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Harga Barang         : Rp. "/>
+        <TextView
+            android:id="@+id/tvHargaBarangStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Harga Barang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Jumlah Barang       : "/>
+        <TextView
+            android:id="@+id/tvJumlahBarangStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Jumlah Barang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Total Harga             : Rp. "/>
+        <TextView
+            android:id="@+id/tvTotalHargaStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Kode Barang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Discount Harga      : Rp. "/>
+        <TextView
+            android:id="@+id/tvDiscountBarangStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Discount Barang"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Discount Member  : Rp. "/>
+        <TextView
+            android:id="@+id/tvDiscountMemberStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Discount Member"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Total Bayar              : Rp. "/>
+        <TextView
+            android:id="@+id/tvTotalBayarStruk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Total Bayar"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thankyou"
+        android:textAlignment="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="30dp">
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share" />
+
+    </LinearLayout>
+</LinearLayout>
